@@ -1,0 +1,255 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+nav {
+   width: 100%;
+   height: auto;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+nav ul li{
+    margin-right: 20px;
+    box-sizing: border-box;
+    display: inline;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+    padding: 5px;
+    font-weight: bold;
+	
+}
+
+nav ul li a:hover {
+	color: #ff0000;
+}
+
+nav ul li .hotline {
+	font-size: 13px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav ul li.promo {
+	font-size: 12px;
+	background-color: #818488;
+	border-radius: 40px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+}
+body {
+    background-image: url(img/front-banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    width: 1000px;
+    height: 110px;
+    margin: auto;
+    
+    margin-top: 30px;
+}
+.logo {
+    float: left;
+    width: 115px;
+    height: 110px;
+    padding-right: 10px;
+    
+}
+
+.logo img{
+    box-sizing: border-box;
+}
+.menuatas {
+    float: left;
+    height: 35px;
+    width: 650px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.navbar {
+    
+    box-sizing: border-box;
+    float: left;
+    width: 208px;
+    height: 55px;
+    
+}
+      
+.navbar a {
+    float: left;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    float: left;
+    width: 100%;
+    height: auto;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 65px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    color:black;
+    background-color: inherit;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 45px;
+    
+  }
+  
+  .dropdown-content a {
+    float: none;
+    font-weight: 700;
+    color: black;
+    font-size: 13px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+
+.notif {
+    float: left;
+    width: 208px;
+    height: 55px;
+    border-bottom: 1px solid black;
+    
+    
+}
+.notification img {
+    float: right ;
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+   
+}
+.menubawah {
+    float: left;
+    height: 35px;
+    width: 650px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.menukananatas {
+    float: left;
+    width: 198px;
+    height: 35px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.konten {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    
+}
+.isi {
+    width: 650px;
+    float: left;
+    height: auto;
+    
+    margin-top: 40px;
+}
+.judul {
+    float: left;
+    box-sizing: border-box;
+}
+.button {
+	float: left;
+	padding-top: 50px;
+	color: black;
+}
+
+.button1 {
+	border: 1px solid #09ab62;
+	background-color: #09ab62;
+	padding:10px 20px;
+	margin-right: 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.button1:hover {
+	background-color: transparent;
+	color: black;
+}
+
+.button2 {
+	border: 1px solid #b6b6b6;
+	padding:10px 20px;
+	margin-right: 10px;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.button2:hover {
+	background-color: #09ab62;
+	color: white;
+}
+
+.img1 {
+    float: left;
+    padding-top: 100px;
+}
+.img1{
+    float: left;
+
+}
+footer {
+    display: block;
+}
+
+footer, footer a{
+    text-align: center;
+    margin: 480px 0 0 0;
+    font-size: 12px;
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    font-weight: bold;
+
+}
